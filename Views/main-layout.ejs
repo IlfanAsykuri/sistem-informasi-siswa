@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <title>
+    <%= title %>
+  </title>
+</head>
+
+<body>
+
+  <%- include('nav') %>
+
+    <div class="container-fluid">
+      <%- body %>
+    </div>
+
+    <footer class="bg-dark text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3 text-light">
+        © 2021 Copyright:
+        <a class="text-light" href="http://ilfanasykuri.epizy.com/">IlfanAsykuri</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+</body>
+
+</html>
